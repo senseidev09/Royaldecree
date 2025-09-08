@@ -15,8 +15,8 @@ Auditwf is an **Advanced tool that automates monitoring of the Windows Firewall 
 ---
 
 # **Setup & Installation**
--**Install python 3 Install**
--**Install the necessary libraries by running in your terminal.**
+## **Install python 3 Install**
+### **Install the necessary libraries by running in your terminal.**
 
 ```bash
 pip install requests
@@ -25,7 +25,7 @@ pip install requests
 ---
 
 
-##**Turn on Firewall Logging:**
+**Turn on Firewall Logging:**
 
 Go to Windows Defender Firewall with Advanced Security. In Firewall Properties, in the Logging section, set "Log (dropped packets)" to Yes.
 
@@ -33,7 +33,10 @@ Go to Windows Defender Firewall with Advanced Security. In Firewall Properties, 
 ###**Edit the email configuration section with your information:**
 
 -email_from: Your email address. 
--email_to: The destination email address. -app_password: The app password for your email account.
+
+-email_to: The destination email address.
+
+-app_password: The app password for your email account.
 
 ---
 
@@ -43,7 +46,7 @@ Run:
 cd c:\monitoring
 ```
 
-###**Run to script**
+### **Run to script**
 ```bash
 python auditwf.py
 ```
