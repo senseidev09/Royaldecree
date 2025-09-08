@@ -38,7 +38,7 @@ Go to Windows Defender Firewall with Advanced Security. In Firewall Properties, 
 
 ---
 
-### **Navigate to the folder where you saved the file**
+## **Navigate to the folder where you saved the file**
 Run:
 ```bash
 cd c:\monitoring
