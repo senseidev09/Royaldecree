@@ -25,18 +25,16 @@ pip install requests
 ---
 
 
-**Turn on Firewall Logging:**
+## **Turn on Firewall Logging:**
 
-Go to Windows Defender Firewall with Advanced Security. In Firewall Properties, in the Logging section, set "Log (dropped packets)" to Yes.
+Go to Windows Defender Firewall with Advanced Security. In Firewall Properties, in the Logging section, set "Log (dropped packets) (successful connections)" to Yes.
 
 
-###**Edit the email configuration section with your information:**
+## **Edit the email configuration section with your information:**
 
--email_from: Your email address. 
-
--email_to: The destination email address.
-
--app_password: The app password for your email account.
+-**email_from: Your email address** 
+-**email_to: The destination email address**
+-**app_password: The app password for your email account**
 
 ---
 
@@ -46,7 +44,7 @@ Run:
 cd c:\monitoring
 ```
 
-### **Run to script**
+## **Run to script**
 ```bash
 python auditwf.py
 ```
