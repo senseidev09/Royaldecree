@@ -32,9 +32,9 @@ Go to Windows Defender Firewall with Advanced Security. In Firewall Properties, 
 
 ## **Edit the email configuration section with your information:**
 
--**email_from: Your email address** 
--**email_to: The destination email address**
--**app_password: The app password for your email account**
+- **email_from: Your email address** 
+- **email_to: The destination email address**
+- **app_password: The app password for your email account**
 
 ---
 
